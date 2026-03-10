@@ -1,0 +1,2659 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" >
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="./css/styles.css" rel="stylesheet" type="text/css">
+	<link href="./css/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="./css/core.css" rel="stylesheet" type="text/css">
+	<link href="./css/components.css" rel="stylesheet" type="text/css">
+	<link href="./css/colors.css" rel="stylesheet"type="text/css">
+	<link href="./css/statusbar.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="./css/windowmodal.css" type="text/css">
+	<base target="_self">
+	<link rel="stylesheet" href="./css/digigov.css" type="text/css">
+	<link rel="stylesheet" href="./css/staticview.css" type="text/css">
+	<title>Certificate Verification | Urban Development &amp; Urban Housing Department | Government of Gujarat, India
+	</title>
+	<link rel="stylesheet" href="./css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css">
+	
+	<meta name="_csrf" content="">
+	<meta name="_csrf_header" content="">
+</head>
+
+<body class="navbar-top  custom-top sidebar-xs-indicator pace-done">
+	<div class="pace  pace-inactive">
+		<div class="pace-progress" data-progress-text="100%" data-progress="99"
+			style="transform: translate3d(100%, 0px, 0px);">
+			<div class="pace-progress-inner"></div>
+		</div>
+		<div class="pace-activity"></div>
+	</div>
+	<!-- <div id='statusbar'><table><tr><td id='imgtd'>&nbsp;</td><td align='left' valign='middle' id='statuBarTd1'></td></tr></table></div>
+			<div id="fadeBackground" class="fade_background"></div> -->
+	<div class="overlay" id="fadeBackgroundOverlay" style="visibility: hidden;">
+	</div>
+	<div class="statusbox" id="fadeBackgroundOverlayStatus" style="visibility: hidden;">
+		<div class="inner-box">
+			<div class="loader-data">
+				<div class="Statusbarloader"></div>
+			</div>
+			<div class="content-data">
+				<div class="Statusbarcontent" id="statusbar-content"></div>
+			</div>
+		</div>
+	</div>
+	<div id="zoomedImage" style="display:none;">
+		<table cellpadding="1" cellspacing="0" border="0" width="100%" height="100%">
+			<tbody>
+				<tr>
+					<td>
+						<table border="0" width="100%" height="100%">
+							<tbody>
+								<tr bgcolor="#ccddff">
+									<td id="imgTitle" align="left" style="border: solid 1px #888888;padding: 2px;">Image Title</td>
+								</tr>
+								<tr>
+									<td height="100%" align="center" valign="middle" id="imageTd">
+										<div> </div>
+									</td>
+								</tr>
+								<tr>
+									<td align="right">
+										<a>Close</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<link rel="stylesheet" href="./css/bootstrap-select.css" type="text/css">
+	<!-- Added by Dhrumil Shah(1082867) for Tooltip -->
+	<link rel="satylesheet" type="text/css"
+		href="/css/tooltipster.bundle.min.css">
+
+	<div class="page-container" style="min-height:659px">
+		<meta name="_csrf" content="">
+		<!-- default header name is X-CSRF-TOKEN -->
+		<meta name="_csrf_header" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>eNagar</title>
+		<meta name="_csrf" content="">
+		<!-- default header name is X-CSRF-TOKEN -->
+		<meta name="_csrf_header" content="">
+		<!-- Global stylesheets -->
+		<link href="./css/styles2.css" rel="stylesheet" type="text/css">
+		<link href="./css/servicebox.css" rel="stylesheet" type="text/css">
+		<link href="./css/footer.css" rel="stylesheet" type="text/css">
+		<link href="./css/dashboard.css" rel="stylesheet" type="text/css">
+		
+		<!-- Main navbar -->
+		<div class="navbar navbar-inverse bg-indigo navbar-fixed-top" id="navbar-main">
+			<div class="navbar-header">
+				<ul class="nav navbar-nav visible-xs-block">
+					<li><a data-toggle="collapse" data-target="#navbar-mobile" class="legitRipple"><i class="icon-tree5"></i></a>
+					</li>
+				</ul>
+			</div>
+			<div class="navbar-collapse collapse " id="navbar-mobile">
+				
+				<div class="navbar text-center" style="padding-right: 0px; padding-left: 0px;">
+					<ul class="nav navbar-nav">
+						<li>
+							
+							<a href="#" class="legitRipple"><img src="./image/logo-1.png" style="width: 157px;height:70px;" alt=""></a>
+						</li>
+						<li class="" id="dropdown1"><a href="#" class="dropdown-toggle legitRipple" data-toggle="dropdown" data-hover="dropdown"><i
+									class="fa fa-home fa-1x"></i> Home</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#"> Contact Us</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</li>
+						<li id="dropdown2"><a
+								href="#"
+								class="dropdown-toggle legitRipple" data-toggle="dropdown" data-hover="dropdown" id="quickPayMenu"><i
+									class="fa fa-rocket"></i> Quick Pay<i class="caret"></i></a>
+							<ul class="dropdown-menu">
+								<li><a
+										href="#"
+										data-toggle="modal" data-target="#serviceUnavailable"><i class="fa fa-building-o"></i>
+										Estate Rent / Installment Payment </a></li>
+								<li><a
+										href="#"
+										data-toggle="modal"><i class="fa fa-fire-extinguisher"></i> Fire and Emergency Payment </a></li>
+								<li><a
+										href="#"
+										data-toggle="modal"><i class="fa fa-user"></i>
+										Marriage Registration Payment </a></li>
+								<li><a
+										href="#" data-toggle="modal"><i class="fa fa-product-hunt"></i> Professional Tax Payment </a></li>
+								<li><a
+										href="#" data-toggle="modal"><i class="fa fa-percent"></i> Property Tax Payment </a></li>
+								<li><a
+										href="#" data-toggle="modal"><i class="fa fa-id-card-o"></i> Shops and Establishment Payment </a></li>
+								<li><a
+										href="#" data-toggle="modal"><i class="fa fa-tint"></i>Water / Drainage Fees Payment </a></li>
+								<li><a
+										href="#" data-toggle="modal"><i class="fa fa-envelope"></i>Download Payment Receipt
+									</a></li>
+							</ul>
+						</li>
+						<!-- added by Mayur for certificate verification..... -->
+						<li id="dropdown3" class="active"><a href="#" class="legitRipple"><i class="fa fa-check"></i> Certificate Verification</a></li>
+						<li id="dropdown4" class="dropdown mega-menu mega-menu-wide"><a href="#" class="dropdown-toggle legitRipple" data-toggle="dropdown" data-hover="dropdown">
+							<i class="fa fa-globe"></i> Online Services <span class="caret"></span></a>
+							<div class="dropdown-menu dropdown-content">
+								<div class="dropdown-content-body">
+									<div class="row underlined">
+										<div id="myCarouselsMenu" class="carousel slide" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="item active">
+													<div class="col-md-2 circle col-lg-offset-1">
+														<span class="menu-heading underlined text-center box-size">
+															<span class="fa-stack fa-3x"> <i class="fa fa-circle fa-stack-2x color-pink border"></i>
+																<i class="fa fa-building-o fa-stack-1x fa-inverse "></i>
+															</span> <b>
+																<p class="color-pink spacing">
+																	Building Permission
+																</p>
+															</b>
+														</span>
+														<div class="dd-wrapper" id="dd-wrapper-0">
+															<div id="dd-header-0" class="dd-header">
+																<h6>Back</h6>
+															</div>
+															<ul class="menu-list has-children dd-menu">
+																<li class="dd-parent last"><a href="#" class="underlined dd-parent-a"> Services <span class="dd-icon"></span></a>
+																	<ul rel="5" style="margin-right: 0px; margin-top: 0px;">
+																		<li><a href="#" class="callAction" data-action="actionFlag=getUlbSelectionForLoad&amp;processName=LicenseRegistration"> License Registration </a></li>
+																		<li><a href="#" class="callAction" data-action="actionFlag=getUlbSelectionForLoad&amp;processName=BuildingPermission"> Building Registration </a></li>
+																		<li><a href="#" class="callAction" data-action="actionFlag=getUlbSelectionForLoad&amp;processName=useCertificate"> Building use </a></li>
+																		<li><a href="#" class="callAction" data-action="actionFlag=getUlbSelectionForLoad&amp;processName=PartPlan"> Issuance of Part Plan/Zoning/ F-Form </a></li>
+																		<li class="last"><a href="#" class="callAction" data-action="actionFlag=reportService&amp;reportCode=1300000&amp;action=parameterPage&amp;dynamicReport=true"> License Holder's List/ List of Person on Record </a></li>
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-2 circle">
+														<span class="menu-heading underlined text-center box-size">
+															<span class="fa-stack fa-3x"> <i class="fa fa-circle fa-stack-2x color-orange border"></i>
+																<i class="fa fa-comments-o fa-stack-1x fa-inverse "></i>
+															</span> <b>
+																<p class="color-orange spacing">
+																	Complaints and Grievance
+																</p>
+															</b>
+														</span>
+														<div class="dd-wrapper" id="dd-wrapper-1">
+															<div id="dd-header-1" class="dd-header">
+																<h6>Back</h6>
+															</div>
+															<ul class="menu-list has-children dd-menu">
+																<li class="dd-parent last"><a href="#" class="underlined dd-parent-a"> Services <span class="dd-icon"></span></a>
+																	<ul rel="2" style="margin-right: 0px; margin-top: 0px;">
+																		<li><a href="#" class="callAction" data-action="actionFlag=getComplaintsAndGrievanceForLoad"> Register New Complaint </a></li>
+																		<li class="last"><a href="#" class="callAction" data-action="actionFlag=getComplaintsAndGrievance"> Search Complaint and Grievance </a></li>
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-2 circle">
+														<span class="menu-heading underlined text-center box-size">
+															<span class="fa-stack fa-3x"> <i class="fa fa-circle fa-stack-2x color-purple border"></i>
+																<i class="fa fa-building-o fa-stack-1x fa-inverse "></i>
+															</span> <b>
+																<p class="color-slate spacing">
+																	Estate Management
+																</p>
+															</b>
+														</span>
+														<div class="dd-wrapper" id="dd-wrapper-2">
+															<div id="dd-header-2" class="dd-header">
+																<h6>Back</h6>
+															</div>
+															<ul class="menu-list has-children dd-menu">
+																<li class="dd-parent last"><a href="#" class="underlined dd-parent-a"> Services <span class="dd-icon"></span></a>
+																	<ul rel="2" style="margin-right: 0px; margin-top: 0px;">
+																		<li><a href="#" class="callAction" data-action="actionFlag=loadRentPaymentDetailsRequest"> Rent Payment </a></li>
+																		<li class="last"><a href="#" class="callAction" data-action="actionFlag=getInstallmentdetailsForLoad"> Installment Payment </a></li>
+																		<!--  data-toggle="modal" data-target="#serviceUnavailable" -->
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-2 circle">
+														<span class="menu-heading underlined text-center box-size">
+															<span class="fa-stack fa-3x"> <i class="fa fa-circle fa-stack-2x color-pink border"></i>
+																<i class="fa fa-fire-extinguisher fa-stack-1x fa-inverse "></i>
+															</span> <b>
+																<p class="color-slate spacing">
+																	Fire and Emergency Services
+																</p>
+															</b>
+														</span>
+														<div class="dd-wrapper" id="dd-wrapper-3">
+															<div id="dd-header-3" class="dd-header">
+																<h6>Back</h6>
+															</div>
+															<ul class="menu-list has-children dd-menu">
+																<li class="dd-parent last"><a  href="#" class="underlined dd-parent-a"> Services <span class="dd-icon"></span></a>
+																	<ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+																		<li>
+																			 <a href="#"class="callAction" data-action="actionFlag=getFireemergencyservicesForLoad">Fire NOC</a>
+																		</li>
+																		<li>
+																			<a href="#" class="callAction" data-action="actionFlag=loadSearchRenewalFireNoc"> Renewal of Fire NOC </a>
+																		</li>
+																		<li class="last"><a href="#" class="callAction" data-action="actionFlag=getEmergencyForLoad"> Emergency Calls </a></li>
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-2 circle">
+														<span class="menu-heading underlined text-center box-size">
+															<span class="fa-stack fa-3x"> <i class="fa fa-circle fa-stack-2x color-purple border"></i>
+																<i class="fa fa-home fa-stack-1x fa-inverse "></i>
+															</span> <b>
+																<p class="color-purple spacing">
+																	Hall Booking
+																</p>
+															</b>
+														</span>
+														<div class="dd-wrapper" id="dd-wrapper-4">
+															<div id="dd-header-4" class="dd-header">
+																<h6>Back</h6>
+															</div>
+															<ul class="menu-list has-children dd-menu">
+																<li class="dd-parent last"><a href="#" class="underlined dd-parent-a"> Services <span class="dd-icon"></span></a>
+																	<ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+																		<li><a href="#" class="callAction" data-action="actionFlag=loadHallReservationPage"> Hall Reservation</a></li>
+																		<li><a href="#" class="callAction" data-action="actionFlag=loadHallChangeReservationPage"> Change Hall Reservation </a></li>
+																		<li class="last"><a href="#" class="callAction" data-action="actionFlag=loadHallCancelReservationPage"> Cancel Hall Reservation </a></li>
+																		<!--  data-toggle="modal" data-target="#serviceUnavailable" -->
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="item">
+													<div class="row underlined">
+														<div class="col-md-2 circle col-lg-offset-1">
+															<span class="menu-heading underlined text-center box-size">
+																<span class="fa-stack fa-3x"> <i
+																		class="fa fa-circle fa-stack-2x color-green border"></i>
+																	<i class="fa fa-id-card-o fa-stack-1x fa-inverse "></i>
+																</span> <b>
+																	<p class="color-brown spacing">
+																		License
+																	</p>
+																</b>
+															</span>
+															<div class="dd-wrapper" id="dd-wrapper-5">
+																<div id="dd-header-5" class="dd-header">
+																	<h6>Back</h6>
+																</div>
+																<ul class="menu-list has-children dd-menu">
+																	<li class="dd-parent last"><a
+																			href="#"
+																			class="underlined dd-parent-a"> Services
+																			<span class="dd-icon"></span></a>
+																		<ul rel="2" style="margin-right: 0px; margin-top: 0px;">
+																			<li class="dd-parent"><a href="#" class="dd-parent-a"> Shops and Establishment<span class="dd-icon"></span></a>
+																				<ul rel="5" style="margin-right: 0px; margin-top: 0px;">
+																					<li><a href="#" class="callAction" data-action="actionFlag=loadNewShopsAndEstRegPage">New Registration</a></li>
+																					<li><a href="#" class="callAction" data-action="actionFlag=loadRenewShopsAndEstRegPage">Renew Registration</a></li>
+																					<li><a href="#" class="callAction" data-action="actionFlag=loadModifyShopsAndEstRegPage">Modification</a> </li>
+																					<li><a href="#" class="callAction" data-action="actionFlag=loadDuplShopsAndEstRegPage">Duplication</a> </li>
+																					<li class="last"><a href="#" class="callAction" data-action="actionFlag=loadCancelShopsAndEstRegPage">Cancellation</a> </li>
+																				</ul>
+																			</li>
+																			<li class="dd-parent"><a href="#" class="dd-parent-a"> Hawker Registration<span class="dd-icon"></span></a>
+																				<ul rel="1" style="margin-right: 0px; margin-top: 0px;">
+																					<li class="last"><a href="#" class="callAction" data-action="actionFlag=loadNewHawkerLicRegPage">New Registration</a> </li>
+																				</ul>
+																			</li>
+																		</ul>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<div class="col-md-2 circle">
+															<span class="menu-heading underlined text-center box-size">
+																<span class="fa-stack fa-3x"> <i
+																		class="fa fa-circle fa-stack-2x color-indigo border"></i>
+																	<i class="fa fa-product-hunt fa-stack-1x fa-inverse "></i>
+																</span> <b>
+																	<p class="color-gray spacing">
+																		Professional Tax
+																	</p>
+																</b>
+															</span>
+															<div class="dd-wrapper" id="dd-wrapper-6">
+																<div id="dd-header-6" class="dd-header">
+																	<h6>Back</h6>
+																</div>
+																<ul class="menu-list has-children dd-menu">
+																	<li class="dd-parent last"><a href="#" class="underlined dd-parent-a"> Services <span class="dd-icon"></span></a>
+																		<ul rel="4" style="margin-right: 0px; margin-top: 0px;">
+																			<li class="dd-parent"><a href="#" class="dd-parent-a"> Registration of Professional <br>Tax<span class="dd-icon"></span></a>
+																				<ul rel="2" style="margin-right: 0px; margin-top: 0px;">
+																					<li><a href="#" class="callAction" data-action="actionFlag=loadUlbList&amp;nextAction=loadApplicantRegistration">Individual, Organization or Firm Registration </a></li>
+																					<li class="last"><a href="#" class="callAction" data-action="actionFlag=loadUlbList&amp;nextAction=loadEmployerRegistration">Employee Registration </a></li>
+																				</ul>
+																			</li>
+																			<li class="dd-parent"><a href="#" class="dd-parent-a"> Registration Details Update<span class="dd-icon"></span></a>
+																				<ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+																					<li><a href="#" class="callAction" data-action="actionFlag=loadEcNameAddrUpdt">Applicant Name and Address Update</a></li>
+																					<li><a href="#" class="callAction" data-action="actionFlag=getPfsnlTaxBankDetailsUpdateForm">Bank Details Update (EC/RC) </a></li>
+																					<li class="last"><a href="#" class="callAction" data-action="actionFlag=loadEcCategoryUpdt">Applicant Profession Category Update</a></li>
+																				</ul>
+																			</li>
+																			<li><a href="#" class="callAction" data-action="actionFlag=getPfsnlTaxNumbCnclPortalForm"> Professional Tax Registration Cancellation </a></li>
+																			<li class="dd-parent"><a href="#" class="dd-parent-a"> Professional Tax Exemption<span class="dd-icon"></span></a>
+																				<ul rel="1" style="margin-right: 0px; margin-top: 0px;">
+																					<li class="last"><a href="#" class="callAction" data-action="actionFlag=loadEcExemption">Professional Tax Exemption</a></li>
+																				</ul>
+																			</li>
+																		</ul>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<div class="col-md-2 circle">
+															<span class="menu-heading underlined text-center box-size">
+																<span class="fa-stack fa-3x"> <i
+																		class="fa fa-circle fa-stack-2x color-indigo border"></i>
+																	<i class="fa fa-percent fa-stack-1x fa-inverse "></i>
+																</span> <b>
+																	<p class="color-indigo spacing">
+																		Property Tax
+																	</p>
+																</b>
+															</span>
+															<div class="dd-wrapper" id="dd-wrapper-7">
+																<div id="dd-header-7" class="dd-header">
+																	<h6>Back</h6>
+																</div>
+																<ul class="menu-list has-children dd-menu">
+																	<li class="dd-parent last"><a href="#" class="underlined dd-parent-a"> Services <span class="dd-icon"></span></a>
+																		<ul rel="4" style="margin-right: 0px; margin-top: 0px;">
+																			<li class="dd-parent"><a href="#" class="dd-parent-a"> Master Correction <span class="dd-icon"></span></a>
+																				<ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+																					<li><a href="#" data-toggle="modal" data-target="#serviceUnavailable">Check New Tenement Number </a></li>
+																					<li><a href="#" class="callAction" data-action="actionFlag=loadUlbList&amp;nextAction=doHandlePtRequest&amp;elementCode=1400016&amp;eventFk=140000012">Request Registration </a></li>
+																					<li class="last"><a href="#" class="callAction" data-action="actionFlag=loadUlbList&amp;nextAction=doHandlePtRequest&amp;elementCode=1400012&amp;eventFk=140000012">Complaint Registration </a></li>
+																				</ul>
+																			</li>
+																			<li class="dd-parent"><a href="#" class="dd-parent-a">Self Assessment <span class="dd-icon"></span></a>
+																				<ul rel="2" style="margin-right: 0px; margin-top: 0px;">
+																					<li><a href="#" data-toggle="modal">Self Assessment </a></li>
+																					<li class="last"><a href="#" class="callAction" data-action="actionFlag=loadSearchDuesDetails">View Property Tax Calculation </a></li>
+																				</ul>
+																			</li>
+																			<li class="dd-parent"><a href="#" class="dd-parent-a">Property Tax Payment <span class="dd-icon"></span></a>
+																				<ul rel="2" style="margin-right: 0px; margin-top: 0px;">
+																					<li><a href="#" class="callAction"  data-action="actionFlag=loadCmnUlbSelectionList&amp;nextAction=doHandlePtRequest&amp;applicationId=1400300&amp;elementCode=1400300&amp;eventFk=140000012&amp;eleIdForRec=1400300">Pay Property Tax </a></li>
+																					<li class="last"><a href="#" data-toggle="modal" data-target="#serviceUnavailable">Pay Transfer Charge </a></li>
+																				</ul>
+																			</li>
+																			<li class="dd-parent"><a href="#" class="dd-parent-a"> Search Property Details and <br>Dues<span class="dd-icon"></span></a>
+																				<ul rel="1" style="margin-right: 0px; margin-top: 0px;">
+																					<li class="last"><a href="#" data-toggle="modal">Search Property Details and <br>Dues</a></li>
+																				</ul>
+																			</li>
+																		</ul>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<!-- Added By 1186276 starts -->
+														<div class="col-md-2 circle">
+															<span class="menu-heading underlined text-center box-size">
+																<span class="fa-stack fa-3x "> <i
+																		class="fa fa-circle fa-stack-2x color-teal border"></i> <i
+																		class="fa fa-user fa-stack-1x fa-inverse "></i>
+																</span> <b>
+																	<p class="color-teal spacing">
+																		Registration of Marriage
+																	</p>
+																</b>
+															</span>
+															<div class="dd-wrapper" id="dd-wrapper-8">
+																<div id="dd-header-8" class="dd-header">
+																	<h6>Back</h6>
+																</div>
+																<ul class="menu-list has-children dd-menu">
+																	<li class="dd-parent last"><a href="#" class="underlined dd-parent-a"> Services <span class="dd-icon"></span></a>
+																		<ul rel="1" style="margin-right: 0px; margin-top: 0px;">
+																			<li class="dd-parent"><a
+																					href="#"
+																					class="dd-parent-a"> Registration of Marriage<span class="dd-icon"></span></a>
+																				<ul rel="1" style="margin-right: 0px; margin-top: 0px;">
+																					<li class="last"><a
+																							href="#"
+																							data-toggle="modal"
+																							data-action="actionFlag=loadMarriageRegistration&amp;elementId=1200001"
+																							class="callAction">Registration of Marriage</a></li>
+																				</ul>
+																			</li>
+																		</ul>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<div class="col-md-2 circle">
+															<span class="menu-heading underlined text-center box-size">
+																<span class="fa-stack fa-3x"> <i class="fa fa-circle fa-stack-2x color-blue border"></i>
+																	<i class="fa fa-tint fa-stack-1x fa-inverse "></i>
+																</span> <b>
+																	<p class="color-blue spacing">
+																		Water and Drainage
+																	</p>
+																</b>
+															</span>
+															<div class="dd-wrapper" id="dd-wrapper-9">
+																<div id="dd-header-9" class="dd-header">
+																	<h6>Back</h6>
+																</div>
+																<ul class="menu-list has-children dd-menu">
+																	<li class="dd-parent last"><a
+																			href="#"
+																			class="underlined dd-parent-a"> Services
+																			<span class="dd-icon"></span></a>
+																		<ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+																			<li class="dd-parent"><a
+																					href="#"
+																					class="dd-parent-a"> Water Connection Services
+																					<span class="dd-icon"></span></a>
+																				<ul rel="6" style="margin-right: 0px; margin-top: 0px;">
+																					<li><a
+																							href="#"
+																							class="callAction"
+																							data-action="actionFlag=getPlumberUlbSelectionForLoad&amp;applicationId=1500002&amp;connectionType=1">
+																							New Water Connection
+																						</a></li>
+																					<li><a
+																							href="#"
+																							class="callAction"
+																							data-action="getPlumberUlbSelectionForLoad&amp;applicationId=1500005&amp;connectionType=1">Close
+																							Connection</a></li>
+																					<li><a
+																							href="#"
+																							class="callAction"
+																							data-action="actionFlag=getPlumberUlbSelectionForLoad&amp;applicationId=1500011&amp;connectionType=1">Change
+																							of Use Water Connection</a></li>
+																					<li><a
+																							href="#"
+																							class="callAction"
+																							data-action="actionFlag=getPlumberUlbSelectionForLoad&amp;applicationId=1500010&amp;connectionType=1">Re-tapping
+																							Water Connection</a></li>
+																					<li><a
+																							href="#"
+																							class="callAction"
+																							data-action="actionFlag=getPlumberUlbSelectionForLoad&amp;applicationId=1500008&amp;connectionType=1">Re-open
+																							WaterConnection </a></li>
+																					<li class="last"><a
+																							href="#"
+																							class="callAction"
+																							data-action="actionFlag=getWaterConnectionSearch&amp;connectionType=1">Search
+																							Water Connection </a></li>
+																				</ul>
+																			</li>
+																			<li class="dd-parent"><a
+																					href="#"
+																					class="dd-parent-a"> Drainage Connection Services
+																					<span class="dd-icon"></span></a>
+																				<ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+																					<li><a
+																							href="#"
+																							class="callAction"
+																							data-action="actionFlag=getPlumberUlbSelectionForLoad&amp;applicationId=1500003&amp;connectionType=2">New
+																							Drainage Connection</a></li>
+																					<li><a
+																							href="#"
+																							class="callAction"
+																							data-action="actionFlag=getPlumberUlbSelectionForLoad&amp;applicationId=1500006&amp;connectionType=2">Close
+																							Drainage Connection</a></li>
+																					<li class="last"><a
+																							href="#"
+																							class="callAction"
+																							data-action="actionFlag=getWaterConnectionSearch&amp;connectionType=2">Search
+																							Drainage Connection</a></li>
+																				</ul>
+																			</li>
+																			<li class="dd-parent"><a
+																					href="#"
+																					class="dd-parent-a"> Plumber Registration<span class="dd-icon"></span></a>
+																				<ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+																					<li><a
+																							href="#"
+																							class="callAction"
+																							data-action="actionFlag=getPlumberUlbSelectionForLoad&amp;applicationId=1500001">New
+																							Plumber Registration</a></li>
+																					<li><a
+																							href="#"
+																							class="callAction"
+																							data-action="actionFlag=getPlumberUlbSelectionForLoad&amp;applicationId=1500007">Renew
+																							Plumber License</a></li>
+																					<li class="last"><a
+																							href="#"
+																							class="callAction" data-action="actionFlag=getPlumberLicense">Search
+																							Plumber Registration</a></li>
+																				</ul>
+																			</li>
+																		</ul>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<!-- added By 1186276 ends -->
+													</div>
+												</div>
+											</div>
+											<ol class="carousel-indicators custom-menu-carousel-indicators">
+												<li data-target="#myCarouselsMenu" data-slide-to="0" class="active"></li>
+												<li data-target="#myCarouselsMenu" data-slide-to="1" class=""></li>
+											</ol>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<!--start  added by pooja for eodb dowloadsa docs -->
+						<li id="dropdown5" class="dropdown"><a
+								href="#"
+								class="dropdown-toggle legitRipple" data-toggle="dropdown" data-hover="dropdown"><i
+									class="dropdown-submenu"></i> Downloads <i class="caret"></i></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Recruitment Form</a>
+								</li>
+								<li class="dropdown-submenu"><a tabindex="-1"
+										href="#">Safai
+										Kamdar Recruitment Form<span></span></a>
+									<ul class="dropdown-menu">
+										<!--  Sub Parent LI -->
+										<li class="dropdown-submenu">
+										</li>
+										<li><a class="test" tabindex=""
+												href="#">Balasinor<span></span></a>
+											<ul class="dropdown-menu"> </ul>
+										</li>
+										<li><a class="test" tabindex=""
+												href="#">Dhoraji<span></span></a>
+											<ul class="dropdown-menu"> </ul>
+										</li> <!--  Sub Parent LI -->
+									</ul>
+								</li>
+								<li><a
+										href="#">
+										Fire Recruitment Details</a></li>
+								<!-- Main PArent LI -->
+								<li class="dropdown-submenu">
+									<a tabindex="-1"
+										href="#">Fire
+										Service Recruitment Rules<span></span></a>
+									<ul class="dropdown-menu">
+										<!--  Sub Parent LI -->
+										<li class="dropdown-submenu">
+											<a class="test" tabindex=""
+												href="#">Ahmedabad<span></span></a>
+											<ul class="dropdown-menu">
+												<!-- Child -->
+												<li><a tabindex="-1"
+														href="#">Botad
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Dholka
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Nadiad
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Surendranagar
+													</a></li>
+												<!-- Child -->
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a class="test" tabindex=""
+												href="#">Bhavnagar<span></span></a>
+											<ul class="dropdown-menu">
+												<!-- Child -->
+												<li><a tabindex="-1"
+														href="#">Amreli
+													</a></li>
+												<li><a tabindex="-1"
+														href="">Keshod
+													</a></li>
+												<li><a tabindex="-1"
+														href="">Talaja
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Veraval-Patan
+													</a></li>
+												<!-- Child -->
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a class="test" tabindex=""
+												href="#">Gandhinagar<span></span></a>
+											<ul class="dropdown-menu">
+												<!-- Child -->
+												<li><a tabindex="-1"
+														href="#">Mansa
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Himmatnagar
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Mehsana</a>
+												</li>
+												<li><a tabindex="-1"
+														href="#">Palanpur
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Patan</a>
+												</li>
+												<li><a tabindex="-1"
+														href="#">Modasa</a>
+												</li>
+												<!-- Child -->
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a class="test" tabindex=""
+												href="#">Rajkot<span></span></a>
+											<ul class="dropdown-menu">
+												<!-- Child -->
+												<li><a tabindex="-1"
+														href="#">Gondal
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Morbi
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Kalavad
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Porbandar
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Khambhaliya
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Bhuj
+													</a></li>
+												<!-- Child -->
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a class="test" tabindex=""
+												href="#">Surat<span></span></a>
+											<ul class="dropdown-menu">
+												<!-- Child -->
+												<li><a tabindex="-1"
+														href="#">Rajpipla
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Navsari
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Bharuch
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Valsad
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Vyara
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Bardoli
+													</a></li>
+												<!-- Child -->
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a class="test" tabindex=""
+												href="#">Vadodara<span></span></a>
+											<ul class="dropdown-menu">
+												<!-- Child -->
+												<li><a tabindex="-1"
+														href="#">Anand
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Godhra
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Dahod
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Chhotaudepur
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Lunavada
+													</a></li>
+												<li><a tabindex="-1"
+														href="#">Karjan
+													</a></li>
+												<!-- Child -->
+											</ul>
+										</li>
+										<!--  Sub Parent LI -->
+									</ul>
+								</li>
+								<!-- Main PArent LI -->
+								<li><a
+										href="#">
+										Payment Receipt</a></li>
+								<li><a
+										href="#">Professional
+										Tax Rate List</a></li>
+								<li><a
+										href="#">
+										Property tax Calculation Logic</a></li>
+								<li><a href="#">Manual and Other
+										Documents</a></li>
+							</ul>
+						</li>
+						<!--End  added by pooja for eodb dowloadsa docs -->
+						<li id="dropdown6" class="dropdown"><a
+								href="#"
+								class="dropdown-toggle legitRipple" data-toggle="dropdown" data-hover="dropdown"><i
+									class="fa fa-ticket"></i> Municipalities<i class="caret"></i></a>
+							<ul class="dropdown-menu">
+								<!-- <li><a href="#solid-rounded-tab3" onclick="loadMunOnMap();"> -->
+								<li><a
+										href="#"
+										data-toggle="modal">Contact Details of Municipalities</a></li>
+								<li><a href="#"> Location of
+										Municipalities on Map
+									</a></li>
+								<li><a
+										href="#"
+										data-toggle="modal"> PropertyTax TSF Mutation Report
+									</a></li>
+							</ul>
+						</li>
+						<li id="dropdown7" class="dropdown"><a
+								href="#"
+								class="dropdown-toggle legitRipple" data-toggle="dropdown" data-hover="dropdown"><i
+									class="fa fa-user"></i> Login <i class="caret"></i></a>
+							<ul class="dropdown-menu">
+								<li><a
+										href="#"
+										data-toggle="modal" data-target="#loginPopup">
+										Citizen Login
+									</a></li>
+								<li><a href="#"> Department Login</a></li>
+							</ul>
+						</li>
+						<li id="dropdown8"><a
+								href="#"
+								class="legitRipple"><i class="fa fa-user-plus"></i> Register</a></li>
+						<li class="dropdown language-switch" data-hover="dropdown"><a data-toggle="dropdown"
+								class="dropdown-toggle legitRipple" data-hover="dropdown"> Language <i class="caret"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="english active langSwitcher" data-lang="en_US">English</a></li>
+								<li><a class="espana langSwitcher" data-lang="gu">ગુજરાતી</a></li>
+							</ul>
+						</li>
+						<li>
+							<div align="right" class="fontSize">
+								<button type="button" id="fbtn" lable="A-" style="background-color:#35404f;"> A-</button>
+								<button type="button" id="fbtn" lable="A"style="background-color:#35404f;">A</button>  
+								<button type="button" id="fbtn" lable="A+" style="background-color:#35404f;">A+</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="modal fade" id="serviceUnavailable" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">×</button>
+						<h4 class="modal-title">
+							Online Services
+						</h4>
+					</div>
+					<div class="modal-body">
+						<p>
+							Releasing Shortly
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default legitRipple" data-dismiss="modal">
+							Close
+						</button>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<div class="page-container" style="min-height:659px">
+			<!-- Page content -->
+			<div class="page-content">
+				<div class="content-wrapper">
+					<div class="content">
+						<form method="POST"
+							action="#"
+							name="quickPayFrm" id="quickPayFrm" autocomplete="off">
+							<div class="row">
+								<div class="col-lg-6 col-lg-offset-3">
+									<div class="panel registration-form">
+										<div class="panel-body">
+											<div align="right">
+												<button type="button" name="closeButton" id="x" size="3" maxlength="3"
+													class="btn btn-primary legitRipple" value="X">X</button>
+											</div>
+											<nav aria-label="breadcrumb">
+												<ol class="breadcrumb">
+													<li class="breadcrumb-item"><a href="#">Home</a>
+													</li>
+													<li class="breadcrumb-item"><a
+															href="#">
+															Certificate Verification</a></li>
+												</ol>
+											</nav>
+											<div class="text-center">
+												<!-- <div class="icon-object border-success text-success"><i class="fa fa-check"></i></div> -->
+												<h5 class="content-group-lg"><label class="control-label" id="CMN.VERIFICATION">Certificate
+														Verification<br>પ્રમાણપત્ર ચકાસણી</label> <small class="display-block">All fields are
+														required</small></h5>
+											</div>
+											<!-- <hr> -->
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														<label class="control-label is-visible" id="CMN.ULB_NAME">ULB Name<br>ULB નું
+															નામ</label>
+														<div class="btn-group bootstrap-select show-tick form-control"><button type="button"
+																class="btn dropdown-toggle btn-default" data-toggle="dropdown" role="button"
+																data-id="ulbId" tabindex="2"
+																title="Surat Municipal Corporation / સુરત  મહાનગરપાલિકા"><span
+																	class="filter-option pull-left">Surat Municipal Corporation / સુરત મહાનગરપાલિકા
+																</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open" role="combobox">
+																<div class="bs-searchbox"><input type="text" class="form-control" autocomplete="off"
+																		role="textbox" aria-label="Search"></div>
+																<ul class="dropdown-menu inner" role="listbox" aria-expanded="false">
+																	<li data-original-index="0"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Select </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Ahmedabad Municipal
+																				Corporation / અમદાવાદ મહાનગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Amod Nagarpalika /
+																				આમોદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="3"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Amreli Nagarpalika
+																				/ અમરેલી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="4"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Anand Nagarpalika /
+																				આણંદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="5"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Anjar Nagarpalika /
+																				અંજાર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="6"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Anklav Nagarpalika
+																				/ આંકલાવ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="7"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Ankleshwar
+																				Nagarpalika / અંકલેશ્વર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="8"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Babra Nagarpalika /
+																				બાબરા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="9"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bagsara Nagarpalika
+																				/ બગસરા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="10"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Balasinor
+																				Nagarpalika / બાલાસિનોર​ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="11"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bantwa Nagarpalika
+																				/ બાંટવા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="12"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bardoli Nagarpalika
+																				/ બારડોલી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="13"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bareja Nagarpalika
+																				/ બારેજા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="14"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Barwala Nagarpalika
+																				/ બરવાળા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="15"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bavla Nagarpalika /
+																				બાવળા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="16"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bayad Nagarpalika /
+																				બાયડ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="17"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bhabhar Nagarpalika
+																				/ ભાભર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="18"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bhachau Nagarpalika
+																				/ ભચાઉ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="19"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bhanvad Nagarpalika
+																				/ ભાણવડ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="20"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bharuch Nagarpalika
+																				/ ભરુચ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="21"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bhavnagar Municipal
+																				Corporation / ભાવનગર મહાનગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="22"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bhayavadar
+																				Nagarpalika / ભાયાવદર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="23"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bhuj Nagarpalika /
+																				ભુજ નગરપાલિકા </span><span class="glyphicon glyphicon-ok check-mark"></span></a>
+																	</li>
+																	<li data-original-index="24"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Bilimora
+																				Nagarpalika / બીલીમોરા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="25"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Boriavi Nagarpalika
+																				/ બોરીઆવી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="26"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Borsad Nagarpalika
+																				/ બોરસદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="27"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Botad Nagarpalika /
+																				બોટાદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="28"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Chaklasi
+																				Nagarpalika / ચકલાસી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="29"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Chalala Nagarpalika
+																				/ ચલાળા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="30"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Chanasma
+																				Nagarpalika / ચણાસમા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="31"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Chhaya Nagarpalika
+																				/ છાયા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="32"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Chhotaudepur
+																				Nagarpalika / છોટા ઉદેપુર​ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="33"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Chorwad Nagarpalika
+																				/ ચોરવાડ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="34"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Chotila Nagarpalika
+																				/ ચોટીલા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="35"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">DEMO ULB / DEMO ULB
+																			</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="36"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dabhoi Nagarpalika
+																				/ ડભોઇ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="37"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dahegam Nagarpalika
+																				/ દહેગામ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="38"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dahod Nagarpalika /
+																				દાહોદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="39"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dakor Nagarpalika /
+																				ડાકોર​ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="40"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Damnagar
+																				Nagarpalika / દામનગર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="41"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Deesa Nagarpalika /
+																				ડીસા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="42"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Devagadh Baria
+																				Nagarpalika / દેવગઢ બારિયા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="43"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Development
+																				Authority / Development Authority </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="44"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dhandhuka
+																				Nagarpalika / ધંધુકા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="45"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dhanera Nagarpalika
+																				/ ધાનેરા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="46"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dhangadhra
+																				Nagarpalika / ધ્રાંગધ્રા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="47"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dharampur
+																				Nagarpalika / ધરમપુર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="48"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dholka Nagarpalika
+																				/ ધોળકા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="49"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dhoraji Nagarpalika
+																				/ ધોરાજી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="50"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dhrol Nagarpalika /
+																				ધ્રોલ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="51"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Dwarka Nagarpalika
+																				/ દ્વારકા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="52"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Gadhada Nagarpalika
+																				/ ગઢડા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="53"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Gandevi Nagarpalika
+																				/ ગણદેવી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="54"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Gandhidham
+																				Nagarpalika / ગાંધીધામ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="55"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Gandhinagar
+																				Municipal Corporation / ગાંધીનગર મહાનગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="56"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Gariyadhar
+																				Nagarpalika / ગરિયાધર​ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="57"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Godhra Nagarpalika
+																				/ ગોધરા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="58"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Gondal Nagarpalika
+																				/ ગોંડલ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="59"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Halol Nagarpalika /
+																				હાલોલ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="60"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Halvad Nagarpalika
+																				/ હળ​વદ​ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="61"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Harij Nagarpalika /
+																				હારીજ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="62"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Himatnagar
+																				Nagarpalika / હિંમતનગર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="63"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Idar Nagarpalika /
+																				ઇડર નગરપાલિકા </span><span class="glyphicon glyphicon-ok check-mark"></span></a>
+																	</li>
+																	<li data-original-index="64"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Jafarabad
+																				Nagarpalika / જાફરાબાદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="65"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Jambusar
+																				Nagarpalika / જંબુસર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="66"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Jamjodhpur
+																				Nagarpalika / જામજોધપુર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="67"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Jamnagar Municipal
+																				Corporation / જામનગર મહાનગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="68"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Jamraval
+																				Nagarpalika / જામરાવલ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="69"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Jasdan Nagarpalika
+																				/ જસદણ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="70"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Jetpur-Navagadh
+																				Municipality / જેતપુર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="71"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Junagadh Municipal
+																				Corporation / જુનાગઢ મહાનગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="72"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kaalol Nagarpalika
+																				/ કાલોલ </span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="73"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kadi Nagarpalika /
+																				કડી નગરપાલિકા </span><span class="glyphicon glyphicon-ok check-mark"></span></a>
+																	</li>
+																	<li data-original-index="74"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kadodara
+																				Nagarpalika / કડોદરા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="75"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kalavad Nagarpalika
+																				/ કાલાવાડ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="76"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kalol Nagarpalika
+																				(Gandhinagar) / કલોલ નગરપાલિકા (ગાંધીનગર) </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="77"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kanjari Nagarpalika
+																				/ કન્જારી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="78"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kapadwanj
+																				Nagarpalika / કપડવંજ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="79"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Karamsad
+																				Nagarpalika / કરમસદ​ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="80"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Karjan Nagarpalika
+																				/ કરજણ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="81"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kathlal Nagarpalika
+																				/ કઠલાલ​ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="82"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Keshod Nagarpalika
+																				/ કેશોદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="83"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Khambhaliya
+																				Nagarpalika / ખંભાળીયા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="84"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Khambhat
+																				Nagarpalika / ખંભાત નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="85"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kheda Nagarpalika /
+																				ખેડા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="86"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Khedbrahma
+																				Nagarpalika / ખેડબ્રમા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="87"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kheralu Nagarpalika
+																				/ ખેરાલુ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="88"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kodinar Nagarpalika
+																				/ કોડીનાર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="89"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Kutiyana
+																				Nagarpalika / કુતિયાણા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="90"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Lathi Nagarpalika /
+																				લાઠી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="91"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Limbdi Nagarpalika
+																				/ લિમડી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="92"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Lunawada
+																				Nagarpalika / લુણાવાડા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="93"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Mahemdabad
+																				Nagarpalika / મહેમદાબાદ​ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="94"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Mahudha Nagarpalika
+																				/ મહુધા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="95"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Mahuva Nagarpalika
+																				/ મહુવા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="96"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Maliyamiyana
+																				Nagarpalika / માળીયામીંયાના નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="97"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Manavadar
+																				Nagarpalika / માણાવદર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="98"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Mandvi(K)
+																				Nagarpalika / માંડવી(ક્) નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="99"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Mandvi(S)
+																				Nagarpalika / માંડવી(સ​) નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="100"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Mangrol Nagarpalika / માંગરોળ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="101"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Mansa
+																				Nagarpalika / માણસા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="102"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Mehsana Nagarpalika / મહેસાણા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="103"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Modasa Nagarpalika / મોડાસા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="104"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Morbi
+																				Nagarpalika / મોરબી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="105"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Mundrabaroi Nagarpalika / મુન્દ્રા-બારોઇ નગરપાલિકા for Testing
+																			</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="106"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Nadiad Nagarpalika / નડીયાદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="107"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Navsari-Vijalpor Nagarpalika (Navsari Zone) / નવસારી-વિજલપોર
+																				નગરપાલિકા (નવસારી વિભાગ) </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="108"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Navsari-Vijalpor Nagarpalika (Vijalpor Zone) / નવસારી-વિજલપોર
+																				નગરપાલિકા (વિજલપોર વિભાગ) </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="109"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Ode
+																				Nagarpalika / ઓદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="110"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Okha
+																				Nagarpalika / ઓખા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="111"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Padra
+																				Nagarpalika / પાદરા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="112"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Palanpur Nagarpalika / પાલનપુર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="113"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Palitana Nagarpalika / પાલીતાણા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="114"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Pardi
+																				Nagarpalika / પારડી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="115"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Patan
+																				Nagarpalika / પાટણ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="116"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Patdi
+																				Nagarpalika / પાટડી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="117"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Pethapur Nagarpalika / પેથાપુર​ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="118"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Petlad Municipality / પેટલાદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="119"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Porbandar Nagarpalika / પોરબંદર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="120"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Prantij Nagarpalika / પ્રાંતિજ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="121"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Radhanpur Nagarpalika / રાધનપુર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="122"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Rajkot Municipal Corporation / રાજકોટ મહાનગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="123"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Rajpipla Nagarpalika / રાજપીપલા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="124"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Rajula Nagarpalika / રાજુલા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="125"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Ranavav Nagarpalika / રાણાવાવ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="126"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Rapar
+																				Nagarpalika / રાપર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="127"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Salaya Nagarpalika / સલાયા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="128"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Sanand Nagarpalika / સાણંદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="129"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Santrampur Nagarpalika / સંતરામપુર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="130"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Savarkundala Nagarpalika / સાવરકુંડલા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="131"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Savli
+																				Nagarpalika / સાવલી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="132"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Shahera Nagarpalika / શહેરા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="133"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Siddhpur Nagarpalika / સિધ્ધપુર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="134"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Sihor
+																				Nagarpalika / સિહોર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="135"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Sikka
+																				Nagarpalika / સિક્કા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="136"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Sojitra Nagarpalika / સોજીત્રા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="137"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Songadh Nagarpalika / સોનગઢ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="138" class="selected"><a tabindex="0" class=""
+																			data-tokens="null" role="option" aria-disabled="false" aria-selected="true"><span
+																				class="text">Surat Municipal Corporation / સુરત
+																				મહાનગરપાલિકા </span><span class="glyphicon glyphicon-ok check-mark"></span></a>
+																	</li>
+																	<li data-original-index="139"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Surendranagar-Dudhrej-Wadhwan Nagarpalika /
+																				Surendranagar-Dudhrej-Wadhwan Nagarpalika </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="140"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Sutrapada Nagarpalika / સુત્રાપાડા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="141"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Talaja Nagarpalika / તળાજા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="142"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Talala Nagarpalika / તલાલા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="143"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Talod
+																				Nagarpalika / તલોદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="144"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Tarsadi Nagarpalika / તરસાડી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="145"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Thangadh Nagarpalika / થાનગઢ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="146"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Thara
+																				Nagarpalika / થરાદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="147"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Tharad Nagarpalika / થરાદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="148"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Thasara Nagarpalika / ઠાસરા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="149"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Umargam Nagarpalika / ઉમરગામ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="150"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Umreth Nagarpalika / ઉમરેઠ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="151"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Una
+																				Nagarpalika / ઉના નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="152"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Unjha
+																				Nagarpalika / ઊંજા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="153"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Upleta Nagarpalika / ઉપલેટા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="154"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Vadali Nagarpalika / વડાલી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="155"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Vadnagar Nagarpalika / વડનગર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="156"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Vadodara Municipal Corporation / વડોદરા મહાનગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="157"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Vallabh Vidyanagar Nagarpalika / વિવિનગર​ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="158"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Vallabhipur Nagarpalika / વલ્લભીપુર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="159"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Valsad Nagarpalika / વલસાડ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="160"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Vanthali Nagarpalika / વંથલિ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="161"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Vapi
+																				Nagarpalika / વાપી નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="162"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Veraval-Patan Joint Municipality / વેરાવળ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="163"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Vijapur Nagarpalika / વિજાપુર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="164"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Viramgam Nagarpalika / વિરમગામ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="165"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Visavadar Nagarpalika / વિસાવદર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="166"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Visnagar Nagarpalika / વિસનગર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="167"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Vyara
+																				Nagarpalika / વ્યારા નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="168"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Wadhvan Nagarpalika / વઢવાણ​ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="169"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span
+																				class="text">Wankaner Nagar Seva Sadan / વાંકાનેર નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="170"><a tabindex="0" class="" data-tokens="null"
+																			role="option" aria-disabled="false" aria-selected="false"><span class="text">Zalod
+																				Nagarpalika / ઝાલોદ નગરપાલિકા </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div><select name="ulbId" class="selectpicker show-tick form-control"
+																data-live-search="true" data-placeholder="City" defaultselect="2" tabindex="-98"
+																id="ulbId">
+																<option value="-1">Select </option>
+																<option value="1">Ahmedabad Municipal Corporation / અમદાવાદ મહાનગરપાલિકા </option>
+																<option value="46">Amod Nagarpalika / આમોદ નગરપાલિકા </option>
+																<option value="17">Amreli Nagarpalika / અમરેલી નગરપાલિકા </option>
+																<option value="26">Anand Nagarpalika / આણંદ નગરપાલિકા </option>
+																<option value="97">Anjar Nagarpalika / અંજાર નગરપાલિકા </option>
+																<option value="33">Anklav Nagarpalika / આંકલાવ નગરપાલિકા </option>
+																<option value="44">Ankleshwar Nagarpalika / અંકલેશ્વર નગરપાલિકા </option>
+																<option value="23">Babra Nagarpalika / બાબરા નગરપાલિકા </option>
+																<option value="20">Bagsara Nagarpalika / બગસરા નગરપાલિકા </option>
+																<option value="87">Balasinor Nagarpalika / બાલાસિનોર​ નગરપાલિકા </option>
+																<option value="83">Bantwa Nagarpalika / બાંટવા નગરપાલિકા </option>
+																<option value="145">Bardoli Nagarpalika / બારડોલી નગરપાલિકા </option>
+																<option value="16">Bareja Nagarpalika / બારેજા નગરપાલિકા </option>
+																<option value="15">Barwala Nagarpalika / બરવાળા નગરપાલિકા </option>
+																<option value="12">Bavla Nagarpalika / બાવળા નગરપાલિકા </option>
+																<option value="144">Bayad Nagarpalika / બાયડ નગરપાલિકા </option>
+																<option value="41">Bhabhar Nagarpalika / ભાભર નગરપાલિકા </option>
+																<option value="99">Bhachau Nagarpalika / ભચાઉ નગરપાલિકા </option>
+																<option value="69">Bhanvad Nagarpalika / ભાણવડ નગરપાલિકા </option>
+																<option value="43">Bharuch Nagarpalika / ભરુચ નગરપાલિકા </option>
+																<option value="5">Bhavnagar Municipal Corporation / ભાવનગર મહાનગરપાલિકા </option>
+																<option value="135">Bhayavadar Nagarpalika / ભાયાવદર નગરપાલિકા </option>
+																<option value="96">Bhuj Nagarpalika / ભુજ નગરપાલિકા </option>
+																<option value="111">Bilimora Nagarpalika / બીલીમોરા નગરપાલિકા </option>
+																<option value="35">Boriavi Nagarpalika / બોરીઆવી નગરપાલિકા </option>
+																<option value="28">Borsad Nagarpalika / બોરસદ નગરપાલિકા </option>
+																<option value="47">Botad Nagarpalika / બોટાદ નગરપાલિકા </option>
+																<option value="86">Chaklasi Nagarpalika / ચકલાસી નગરપાલિકા </option>
+																<option value="24">Chalala Nagarpalika / ચલાળા નગરપાલિકા </option>
+																<option value="123">Chanasma Nagarpalika / ચણાસમા નગરપાલિકા </option>
+																<option value="126">Chhaya Nagarpalika / છાયા નગરપાલિકા </option>
+																<option value="164">Chhotaudepur Nagarpalika / છોટા ઉદેપુર​ નગરપાલિકા </option>
+																<option value="79">Chorwad Nagarpalika / ચોરવાડ નગરપાલિકા </option>
+																<option value="157">Chotila Nagarpalika / ચોટીલા નગરપાલિકા </option>
+																<option value="999">DEMO ULB / DEMO ULB </option>
+																<option value="161">Dabhoi Nagarpalika / ડભોઇ નગરપાલિકા </option>
+																<option value="59">Dahegam Nagarpalika / દહેગામ નગરપાલિકા </option>
+																<option value="55">Dahod Nagarpalika / દાહોદ નગરપાલિકા </option>
+																<option value="90">Dakor Nagarpalika / ડાકોર​ નગરપાલિકા </option>
+																<option value="25">Damnagar Nagarpalika / દામનગર નગરપાલિકા </option>
+																<option value="38">Deesa Nagarpalika / ડીસા નગરપાલિકા </option>
+																<option value="57">Devagadh Baria Nagarpalika / દેવગઢ બારિયા નગરપાલિકા </option>
+																<option value="201">Development Authority / Development Authority </option>
+																<option value="13">Dhandhuka Nagarpalika / ધંધુકા નગરપાલિકા </option>
+																<option value="40">Dhanera Nagarpalika / ધાનેરા નગરપાલિકા </option>
+																<option value="152">Dhangadhra Nagarpalika / ધ્રાંગધ્રા નગરપાલિકા </option>
+																<option value="170">Dharampur Nagarpalika / ધરમપુર નગરપાલિકા </option>
+																<option value="9">Dholka Nagarpalika / ધોળકા નગરપાલિકા </option>
+																<option value="131">Dhoraji Nagarpalika / ધોરાજી નગરપાલિકા </option>
+																<option value="67">Dhrol Nagarpalika / ધ્રોલ નગરપાલિકા </option>
+																<option value="64">Dwarka Nagarpalika / દ્વારકા નગરપાલિકા </option>
+																<option value="52">Gadhada Nagarpalika / ગઢડા નગરપાલિકા </option>
+																<option value="112">Gandevi Nagarpalika / ગણદેવી નગરપાલિકા </option>
+																<option value="95">Gandhidham Nagarpalika / ગાંધીધામ નગરપાલિકા </option>
+																<option value="8">Gandhinagar Municipal Corporation / ગાંધીનગર મહાનગરપાલિકા </option>
+																<option value="51">Gariyadhar Nagarpalika / ગરિયાધર​ નગરપાલિકા </option>
+																<option value="113">Godhra Nagarpalika / ગોધરા નગરપાલિકા </option>
+																<option value="130">Gondal Nagarpalika / ગોંડલ નગરપાલિકા </option>
+																<option value="114">Halol Nagarpalika / હાલોલ નગરપાલિકા </option>
+																<option value="156">Halvad Nagarpalika / હળ​વદ​ નગરપાલિકા </option>
+																<option value="122">Harij Nagarpalika / હારીજ નગરપાલિકા </option>
+																<option value="137">Himatnagar Nagarpalika / હિંમતનગર નગરપાલિકા </option>
+																<option value="139">Idar Nagarpalika / ઇડર નગરપાલિકા </option>
+																<option value="21">Jafarabad Nagarpalika / જાફરાબાદ નગરપાલિકા </option>
+																<option value="45">Jambusar Nagarpalika / જંબુસર નગરપાલિકા </option>
+																<option value="68">Jamjodhpur Nagarpalika / જામજોધપુર નગરપાલિકા </option>
+																<option value="6">Jamnagar Municipal Corporation / જામનગર મહાનગરપાલિકા </option>
+																<option value="71">Jamraval Nagarpalika / જામરાવલ નગરપાલિકા </option>
+																<option value="134">Jasdan Nagarpalika / જસદણ નગરપાલિકા </option>
+																<option value="129">Jetpur-Navagadh Municipality / જેતપુર નગરપાલિકા </option>
+																<option value="7">Junagadh Municipal Corporation / જુનાગઢ મહાનગરપાલિકા </option>
+																<option value="116">Kaalol Nagarpalika / કાલોલ </option>
+																<option value="103">Kadi Nagarpalika / કડી નગરપાલિકા </option>
+																<option value="149">Kadodara Nagarpalika / કડોદરા નગરપાલિકા </option>
+																<option value="66">Kalavad Nagarpalika / કાલાવાડ નગરપાલિકા </option>
+																<option value="58">Kalol Nagarpalika (Gandhinagar) / કલોલ નગરપાલિકા (ગાંધીનગર) </option>
+																<option value="150">Kanjari Nagarpalika / કન્જારી નગરપાલિકા </option>
+																<option value="85">Kapadwanj Nagarpalika / કપડવંજ નગરપાલિકા </option>
+																<option value="32">Karamsad Nagarpalika / કરમસદ​ નગરપાલિકા </option>
+																<option value="163">Karjan Nagarpalika / કરજણ નગરપાલિકા </option>
+																<option value="91">Kathlal Nagarpalika / કઠલાલ​ નગરપાલિકા </option>
+																<option value="73">Keshod Nagarpalika / કેશોદ નગરપાલિકા </option>
+																<option value="63">Khambhaliya Nagarpalika / ખંભાળીયા નગરપાલિકા </option>
+																<option value="27">Khambhat Nagarpalika / ખંભાત નગરપાલિકા </option>
+																<option value="89">Kheda Nagarpalika / ખેડા નગરપાલિકા </option>
+																<option value="140">Khedbrahma Nagarpalika / ખેડબ્રમા નગરપાલિકા </option>
+																<option value="107">Kheralu Nagarpalika / ખેરાલુ નગરપાલિકા </option>
+																<option value="76">Kodinar Nagarpalika / કોડીનાર નગરપાલિકા </option>
+																<option value="127">Kutiyana Nagarpalika / કુતિયાણા નગરપાલિકા </option>
+																<option value="22">Lathi Nagarpalika / લાઠી નગરપાલિકા </option>
+																<option value="154">Limbdi Nagarpalika / લિમડી નગરપાલિકા </option>
+																<option value="115">Lunawada Nagarpalika / લુણાવાડા નગરપાલિકા </option>
+																<option value="88">Mahemdabad Nagarpalika / મહેમદાબાદ​ નગરપાલિકા </option>
+																<option value="92">Mahudha Nagarpalika / મહુધા નગરપાલિકા </option>
+																<option value="48">Mahuva Nagarpalika / મહુવા નગરપાલિકા </option>
+																<option value="136">Maliyamiyana Nagarpalika / માળીયામીંયાના નગરપાલિકા </option>
+																<option value="77">Manavadar Nagarpalika / માણાવદર નગરપાલિકા </option>
+																<option value="98">Mandvi(K) Nagarpalika / માંડવી(ક્) નગરપાલિકા </option>
+																<option value="147">Mandvi(S) Nagarpalika / માંડવી(સ​) નગરપાલિકા </option>
+																<option value="74">Mangrol Nagarpalika / માંગરોળ નગરપાલિકા </option>
+																<option value="60">Mansa Nagarpalika / માણસા નગરપાલિકા </option>
+																<option value="101">Mehsana Nagarpalika / મહેસાણા નગરપાલિકા </option>
+																<option value="138">Modasa Nagarpalika / મોડાસા નગરપાલિકા </option>
+																<option value="128">Morbi Nagarpalika / મોરબી નગરપાલિકા </option>
+																<option value="202">Mundrabaroi Nagarpalika / મુન્દ્રા-બારોઇ નગરપાલિકા for Testing </option>
+																<option value="84">Nadiad Nagarpalika / નડીયાદ નગરપાલિકા </option>
+																<option value="109">Navsari-Vijalpor Nagarpalika (Navsari Zone) / નવસારી-વિજલપોર નગરપાલિકા (નવસારી વિભાગ) </option>
+																<option value="110">Navsari-Vijalpor Nagarpalika (Vijalpor Zone) / નવસારી-વિજલપોર નગરપાલિકા (વિજલપોર વિભાગ) </option>
+																<option value="34">Ode Nagarpalika / ઓદ નગરપાલિકા </option>
+																<option value="62">Okha Nagarpalika / ઓખા નગરપાલિકા </option>
+																<option value="162">Padra Nagarpalika / પાદરા નગરપાલિકા </option>
+																<option value="37">Palanpur Nagarpalika / પાલનપુર નગરપાલિકા </option>
+																<option value="49">Palitana Nagarpalika / પાલીતાણા નગરપાલિકા </option>
+																<option value="168">Pardi Nagarpalika / પારડી નગરપાલિકા </option>
+																<option value="119">Patan Nagarpalika / પાટણ નગરપાલિકા </option>
+																<option value="158">Patdi Nagarpalika / પાટડી નગરપાલિકા </option>
+																<option value="61">Pethapur Nagarpalika / પેથાપુર​ નગરપાલિકા </option>
+																<option value="29">Petlad Municipality / પેટલાદ નગરપાલિકા </option>
+																<option value="124">Porbandar Nagarpalika / પોરબંદર નગરપાલિકા </option>
+																<option value="141">Prantij Nagarpalika / પ્રાંતિજ નગરપાલિકા </option>
+																<option value="121">Radhanpur Nagarpalika / રાધનપુર નગરપાલિકા </option>
+																<option value="4">Rajkot Municipal Corporation / રાજકોટ મહાનગરપાલિકા </option>
+																<option value="108">Rajpipla Nagarpalika / રાજપીપલા નગરપાલિકા </option>
+																<option value="19">Rajula Nagarpalika / રાજુલા નગરપાલિકા </option>
+																<option value="125">Ranavav Nagarpalika / રાણાવાવ નગરપાલિકા </option>
+																<option value="100">Rapar Nagarpalika / રાપર નગરપાલિકા </option>
+																<option value="65">Salaya Nagarpalika / સલાયા નગરપાલિકા </option>
+																<option value="11">Sanand Nagarpalika / સાણંદ નગરપાલિકા </option>
+																<option value="117">Santrampur Nagarpalika / સંતરામપુર નગરપાલિકા </option>
+																<option value="18">Savarkundala Nagarpalika / સાવરકુંડલા નગરપાલિકા </option>
+																<option value="165">Savli Nagarpalika / સાવલી નગરપાલિકા </option>
+																<option value="118">Shahera Nagarpalika / શહેરા નગરપાલિકા </option>
+																<option value="120">Siddhpur Nagarpalika / સિધ્ધપુર નગરપાલિકા </option>
+																<option value="50">Sihor Nagarpalika / સિહોર નગરપાલિકા </option>
+																<option value="70">Sikka Nagarpalika / સિક્કા નગરપાલિકા </option>
+																<option value="36">Sojitra Nagarpalika / સોજીત્રા નગરપાલિકા </option>
+																<option value="160">Songadh Nagarpalika / સોનગઢ નગરપાલિકા </option>
+																<option value="2" selected="selected">Surat Municipal Corporation / સુરત
+																	મહાનગરપાલિકા </option>
+																<option value="151">Surendranagar-Dudhrej-Wadhwan Nagarpalika /
+																	Surendranagar-Dudhrej-Wadhwan Nagarpalika </option>
+																<option value="78">Sutrapada Nagarpalika / સુત્રાપાડા નગરપાલિકા </option>
+																<option value="53">Talaja Nagarpalika / તળાજા નગરપાલિકા </option>
+																<option value="80">Talala Nagarpalika / તલાલા નગરપાલિકા </option>
+																<option value="143">Talod Nagarpalika / તલોદ નગરપાલિકા </option>
+																<option value="146">Tarsadi Nagarpalika / તરસાડી નગરપાલિકા </option>
+																<option value="155">Thangadh Nagarpalika / થાનગઢ નગરપાલિકા </option>
+																<option value="42">Thara Nagarpalika / થરાદ નગરપાલિકા </option>
+																<option value="39">Tharad Nagarpalika / થરાદ નગરપાલિકા </option>
+																<option value="94">Thasara Nagarpalika / ઠાસરા નગરપાલિકા </option>
+																<option value="169">Umargam Nagarpalika / ઉમરગામ નગરપાલિકા </option>
+																<option value="30">Umreth Nagarpalika / ઉમરેઠ નગરપાલિકા </option>
+																<option value="75">Una Nagarpalika / ઉના નગરપાલિકા </option>
+																<option value="104">Unjha Nagarpalika / ઊંજા નગરપાલિકા </option>
+																<option value="132">Upleta Nagarpalika / ઉપલેટા નગરપાલિકા </option>
+																<option value="142">Vadali Nagarpalika / વડાલી નગરપાલિકા </option>
+																<option value="105">Vadnagar Nagarpalika / વડનગર નગરપાલિકા </option>
+																<option value="3">Vadodara Municipal Corporation / વડોદરા મહાનગરપાલિકા </option>
+																<option value="31">Vallabh Vidyanagar Nagarpalika / વિવિનગર​ નગરપાલિકા </option>
+																<option value="54">Vallabhipur Nagarpalika / વલ્લભીપુર નગરપાલિકા </option>
+																<option value="167">Valsad Nagarpalika / વલસાડ નગરપાલિકા </option>
+																<option value="82">Vanthali Nagarpalika / વંથલિ નગરપાલિકા </option>
+																<option value="166">Vapi Nagarpalika / વાપી નગરપાલિકા </option>
+																<option value="72">Veraval-Patan Joint Municipality / વેરાવળ નગરપાલિકા </option>
+																<option value="106">Vijapur Nagarpalika / વિજાપુર નગરપાલિકા </option>
+																<option value="10">Viramgam Nagarpalika / વિરમગામ નગરપાલિકા </option>
+																<option value="81">Visavadar Nagarpalika / વિસાવદર નગરપાલિકા </option>
+																<option value="102">Visnagar Nagarpalika / વિસનગર નગરપાલિકા </option>
+																<option value="159">Vyara Nagarpalika / વ્યારા નગરપાલિકા </option>
+																<option value="153">Wadhvan Nagarpalika / વઢવાણ​ નગરપાલિકા </option>
+																<option value="133">Wankaner Nagar Seva Sadan / વાંકાનેર નગરપાલિકા </option>
+																<option value="56">Zalod Nagarpalika / ઝાલોદ નગરપાલિકા </option>
+															</select>
+														</div><span class="text-danger form-control-feedback">*</span> <span id="time"
+															style="color:red;"></span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														<label class="control-label is-visible" id="CMN.APPLICATION_NAME">Application
+															Name<br>એપ્લિકેશનનું નામ</label>
+														<div class="btn-group bootstrap-select show-tick form-control"><button type="button"
+																class="btn dropdown-toggle btn-default" data-toggle="dropdown" role="button"
+																data-id="applicationId" tabindex="3" title="Building Permission Certificate"><span
+																	class="filter-option pull-left">Building Permission Certificate </span>&nbsp;<span
+																	class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open" role="combobox">
+																<div class="bs-searchbox"><input type="text" class="form-control" autocomplete="off"
+																		role="textbox" aria-label="Search"></div>
+																<ul class="dropdown-menu inner" role="listbox" aria-expanded="false">
+																	<li data-original-index="0"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Select </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Architect/Engineer
+																				License Certificate </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Birth
+																				Certificate/જન્મ પ્રમાણપત્ર </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="3" class="selected"><a tabindex="0" class=""
+																			data-tokens="null" role="option" aria-disabled="false" aria-selected="true"><span
+																				class="text">Building Permission Certificate </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="4"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Death
+																				Certificate/મૃત્યુ પ્રમાણપત્ર </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="5"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Fire NOC
+																				Certificate / ફાયર એનઓસી પ્રમાણપત્ર </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="6"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Marriage
+																				Certificate/લગ્ન પ્રમાણપત્ર </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="7"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Mobile Tower Fees
+																				Payment / મોબાઇલ ટાવર ફી ચુકવણી </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="8"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Professional Tax
+																				(EC) Certificate/વ્યવસાયિક કર (ઇસી) પ્રમાણપત્ર </span><span
+																				class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="9"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Professional Tax
+																				(RC) Certificate/વ્યવસાયિક કર (આરસી)
+																				પ્રમાણપત્ર </span><span class="glyphicon glyphicon-ok check-mark"></span></a>
+																	</li>
+																	<li data-original-index="10"><a tabindex="0" class="" data-tokens="null" role="option"
+																			aria-disabled="false" aria-selected="false"><span class="text">Shops and
+																				Establishment Certificate / દુકાનો અને સ્થાપના
+																				પ્રમાણપત્ર </span><span class="glyphicon glyphicon-ok check-mark"></span></a>
+																	</li>
+																</ul>
+															</div><select name="applicationId" class="selectpicker show-tick form-control"
+																data-live-search="true" data-placeholder="Application Name" defaultselect="1320000"
+																tabindex="-98" id="applicationId">
+																<option value="-1">Select </option>
+																<option value="1310000">Architect/Engineer License Certificate </option>
+																<option value="4">Birth Certificate/જન્મ પ્રમાણપત્ર </option>
+																<option value="1320000" selected="selected">Building Permission Certificate </option>
+																<option value="5">Death Certificate/મૃત્યુ પ્રમાણપત્ર </option>
+																<option value="3400001">Fire NOC Certificate / ફાયર એનઓસી પ્રમાણપત્ર </option>
+																<option value="6">Marriage Certificate/લગ્ન પ્રમાણપત્ર </option>
+																<option value="1800000">Mobile Tower Fees Payment / મોબાઇલ ટાવર ફી ચુકવણી </option>
+																<option value="2">Professional Tax (EC) Certificate/વ્યવસાયિક કર (ઇસી) પ્રમાણપત્ર
+																</option>
+																<option value="3">Professional Tax (RC) Certificate/વ્યવસાયિક કર (આરસી) પ્રમાણપત્ર
+																</option>
+																<option value="1">Shops and Establishment Certificate / દુકાનો અને સ્થાપના
+																	પ્રમાણપત્ર </option>
+															</select>
+														</div><span class="text-danger form-control-feedback">*</span> <span id="time"
+															style="color:red;"></span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Building Permission No.
+														<input type="text" name="rajachithhiNumber" id="rajachithhiNumber"
+															placeholder="Please Enter" class="form-control mandatorycontrol"
+															value="1116BP23240875"><span class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row" id="ptNotes" style="display:none">
+												<div class="col-md-6" style="padding-top:20px">
+													<p style="color:red;">NOTE: નવો ટેનામેન્ટ નંબર (વોર્ડ નંબર તથા મિલકત ઓળખ નંબર નાખતા જ નવો
+														ટેનામેન્ટ નંબર જનરેટ થશે, નવો ટેનામેન્ટ નંબર નાખવાની જરૂર નથી.)</p>
+												</div>
+												<div class="col-md-6" style="padding-top:20px">
+													<p style="color:red;">NOTE: જુનો ટેનામેન્ટ નંબર (જુના મિલકતવેરા બિલમાંથી મિલકત ઓળખ નંબર
+														લખવો)</p>
+												</div>
+											</div>
+											<!-- added for captcha by Mayur start...-->
+											<div class="row">
+												<div class="col-md-6" style="padding-top:20px">
+													<div class="form-group form-group-material">
+														<input type="text" name="captcha_fld" id="captcha_fld" placeholder="Captcha" tabindex="4"
+															class="form-control mandatorycontrol" value=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6" style="padding-top:20px">
+													<div class="form-group form-group-material">
+														<label class="control-label animate"></label>
+														<div class="input-group">
+															<img src="https://enagar.gujarat.gov.in/DIGIGOV/Captcha?1645167241046"
+																id="loginCaptcha_fld" class="img-responsive media-preview" style="height: 36px;">
+															<div class="input-group-btn">
+																<button type="button" id="refresh3" tabindex="5"
+																	class="btn btn-default btn-icon legitRipple"><span
+																		class="fa fa-refresh"></span></button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- added for captcha by Mayur end...-->
+											<div class="form-group text-center" id="generateOTPButton">
+												<button type="button" name="btnSearch" id="btnSearch" tabindex="6" size="3" maxlength="3"
+													class="btn btn-primary legitRipple" value="Verify">Verify</button>
+											</div>
+											<div> </div> <br>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Application Status
+														<input type="text" name="applicationStatus" id="applicationStatus"
+															placeholder="Please Enter" class="form-control disabledcontrol mandatorycontrol"
+															value="Completed" readonly=""><span class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Application Number
+														<input type="text" name="applicationNumber" id="applicationNumber"
+															placeholder="Please Enter" class="form-control disabledcontrol mandatorycontrol"
+															value="1116BDP23240908" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Date
+														<input type="text" name="createdDate" id="createdDate" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="17-05-2023" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Architect/Engineer No.
+														
+														<input type="text" name="architectLicense" id="architectLicense" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="1116ERH31032500911"
+															readonly=""><span class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Architect/ Engineer Name
+														<input type="text" name="architectName" id="architectName" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="HITESHKUMAR KALYANBHAI DHAMELIYA"
+															readonly=""><span class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Structure Engineer No.
+														<input type="text" name="designerLicense" id="designerLicense" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="1116SE31032500272" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Structure Engineer Name
+														<input type="text" name="designerName" id="designerName" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="HITESHKUMAR KALYANBHAI DHAMELIYA" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Clerk of Works No.
+														<input type="text" name="clerkLicense" id="clerkLicense" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="-" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Clerk of Works Name
+														<input type="text" name="clerkName" id="clerkName" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="-" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Developer No.
+														<input type="text" name="developerLicense" id="developerLicense" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="-" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Developer Name
+														<input type="text" name="developerName" id="developerName" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="-" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Owner Name
+														<input type="text" name="ownerName" id="ownerName" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol"
+															value="NALINCHANDRA B. PATEL AND OTHERS" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Owner Address
+														<textarea name="ownersAddress" id="ownersAddress"
+															class="form-control disabledcontrol mandatorycontrol" placeholder="Please Enter"
+															readonly="">37 BLOCK NO. 41  KARADAVA ,CHORYASI - 394210</textarea>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Applicant Name
+														<input type="text" name="occupierName" id="occupierName" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol"
+															value="NALINCHANDRA B. PATEL AND OTHERS" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Applicant Address
+														<textarea name="occupierAddress" id="occupierAddress"
+															class="form-control disabledcontrol mandatorycontrol" placeholder="Please Enter"
+															readonly="">37 BLOCK NO. 41  KARADAVA ,CHORYASI - 394210</textarea>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Administrative Zone
+														<input type="text" name="administrativeZone" id="administrativeZone"
+															placeholder="Please Enter" class="form-control disabledcontrol mandatorycontrol"
+															value="DEFAULT ZONE SURAT" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Administrative Ward
+														<input type="text" name="administrativeWard" id="administrativeWard"
+															placeholder="Please Enter" class="form-control disabledcontrol mandatorycontrol"
+															value="DEFAULT WARD" readonly=""><span class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														District
+														<input type="text" name="districtName" id="districtName" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="SURAT" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Taluka
+														<input type="text" name="talukaName" id="talukaName" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="CHORYASI" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														City/Village
+														<input type="text" name="city" id="city" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="SANIYAKANDE" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														TP Scheme/ Non TP Scheme Number
+														<input type="text" name="tpSchemeNumber" id="tpSchemeNumber" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="-" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														TP Scheme/ Non TP Scheme Name
+														<input type="text" name="tpSchemeName" id="tpSchemeName" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="-" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Revenue Survey No.
+														<input type="text" name="revenueSurveyNo" id="revenueSurveyNo" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="-" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														City Survey No.
+														<input type="text" name="citySurveyNoString" id="citySurveyNoString"
+															placeholder="Please Enter" class="form-control disabledcontrol mandatorycontrol" value="-"
+															readonly=""><span class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Final Plot No.
+														<input type="text" name="finalPlotNumber" id="finalPlotNumber" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="-" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Original Plot No.
+														<input type="text" name="originalPlotNumber" id="originalPlotNumber"
+															placeholder="Please Enter" class="form-control disabledcontrol mandatorycontrol"
+															value="-" readonly=""><span class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Sub Plot no.
+														<input type="text" name="subPlotNumber" id="subPlotNumber" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="12" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Tikka No. / Part No.
+														<input type="text" name="tikkaPartNumber" id="tikkaPartNumber" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="-" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Site Address
+														<textarea name="siteAddress" id="siteAddress"
+															class="form-control disabledcontrol mandatorycontrol" placeholder="Please Enter"
+															readonly="">BLOCK NO. 41  PAIKEE SUB PLOT NO - 27, KARADAVA, TA.-CHORASI, DI.-SURAT </textarea>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Block No/Tenement No
+														<input type="text" name="tenamentNumber" id="tenamentNumber" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="41" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Max Height Of Building
+														<input type="text" name="buildingHeight" id="buildingHeight" placeholder="Please Enter"
+															class="form-control disabledcontrol mandatorycontrol" value="6.45" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														ODPS Application No.
+														<input type="text" name="odpsApplicationId" id="odpsApplicationId"
+															placeholder="Please Enter" class="form-control disabledcontrol mandatorycontrol"
+															value="ODPS/2023/034771" readonly=""><span
+															class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Certificate Issue Date
+														<input type="text" name="commenceCertIssueDate" id="commenceCertIssueDate"
+															placeholder="Please Enter" class="form-control disabledcontrol mandatorycontrol"
+															value="22-05-2023" readonly=""><span class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-group-material has-feedback">
+														Certificate Expiry Date
+														<input type="text" name="certificateExpiryDate" id="certificateExpiryDate"
+															placeholder="Please Enter" class="form-control disabledcontrol mandatorycontrol"
+															value="21-05-2024" readonly=""><span class="text-danger form-control-feedback">*</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6" style="padding-top:20px">
+													<div class="form-group form-group-material">
+														<label class="control-label animate" id="QUICKPAY_MOBILE_NO">Mobile Number<br>મોબાઇલ
+															નંબર</label>
+														<input type="text" name="mobileNumberQuickPay" id="mobileNumberQuickPay"
+															placeholder="Mobile Number" tabindex="2"
+															class="form-control maxlength-label-position mandatorycontrol" value=""
+															maxlength="10"><span class="text-danger form-control-feedback">*</span><span id="time"
+															style="color:red;"></span>
+													</div>
+												</div>
+												<div class="col-md-6" style="padding-top:20px">
+													<div class="form-group form-group-material">
+														<label class="control-label animate" id="QUICKPAY_EMAIL">Email Id<br>ઇમેઇલ</label>
+														<input type="text" name="emailIdQuickPay" id="emailIdQuickPay" placeholder="Email Id"
+															tabindex="2" class="form-control mandatorycontrol" value=""><span
+															class="text-danger form-control-feedback">*</span><span id="time"
+															style="color:red;"></span>
+													</div>
+												</div>
+											</div>
+											<div class="text-center">
+												<a href="./PDFS/27maniba/digigov.pdf" type="button" name="downloadPDF" id="downloadPDF" size="3" maxlength="3"
+													class="btn btn-primary legitRipple" value="Download PDF" target="_blank" download>Download PDF</a>
+												<a href="./PDFS1/27Maniba/digigov.pdf"  type="button" name="downloadDrawingPDF" id="downloadDrawingPDF" size="3" maxlength="3"
+													class="btn btn-primary legitRipple" value="Download Drawing PDF" target="_blank" download>Download
+													Drawing PDF</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<!-- /content area -->
+					
+					<!-- /footer -->
+				</div>
+				<!-- /main content -->
+			</div>
+			<!-- /page content -->
+		</div> <!-- footer -->
+		<div class="">
+			<!-- Footer -->
+			<div class="text-muted">
+				<footer class="mainfooter" style="padding-top:20px;">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 col-sm-3">
+								<h3>
+									<font style="color:white; text-transform: uppercase;"><b>About Us</b></font>
+								</h3>
+								<ul>
+									<li style="padding-bottom: 5px;"><a href="#">
+											<font style="color:#a8a8a8; font-size: 15px;">About Us</font>
+										</a></li>
+									<li style="padding-bottom: 5px;"><a href="#">
+											<font style="color:#a8a8a8; font-size: 15px;">Privacy Policy</font>
+										</a></li>
+								</ul>
+								<div>
+									<br><br>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<h3>
+									<font style="color:white; text-transform: uppercase;"><b>Contact Us</b></font>
+								</h3>
+								<ul>
+									<li style="padding-bottom: 5px;"><a href="#">
+											<font style="color:#a8a8a8; font-size: 15px;">Contact Us</font>
+										</a></li>
+									<li style="padding-bottom: 5px;"><a
+											href="#">
+											<font style="color:#a8a8a8; font-size: 15px;">Feedback</font>
+										</a></li>
+									<li style="padding-bottom: 5px;"><a
+											href="#">
+											<font style="color:#a8a8a8; font-size: 15px;">Municipalities</font>
+										</a></li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<h3>
+									<font style="color:white; text-transform: uppercase;"><b>Navigate Site</b></font>
+								</h3>
+								<ul>
+									<li style="padding-bottom: 5px;"><a href="#">
+											<font style="color:#a8a8a8; font-size: 15px;">Home</font>
+										</a></li>
+									<li style="padding-bottom: 5px;"><a href="#">
+											<font style="color:#a8a8a8; font-size: 15px;">Search </font>
+										</a></li>
+									<li style="padding-bottom: 5px;"><a href="#">
+											<font style="color:#a8a8a8; font-size: 15px;">Sitemap</font>
+										</a></li>
+								</ul>
+								<div>
+									<font style="font-weight: bold; font-size: 16px; ">DOWNLOAD MOBILE APP</font>
+									<br><br>
+									<a href="#" data-toggle="modal"
+										class="icon-button facebook"><i class="fa fa-android icon-facebook" aria-hidden="true"
+											data-toggle="tooltip" data-placement="top" data-original-title="" title=""></i>
+										<span></span></a>
+									<a href="#" data-toggle="modal"
+										class="icon-button facebook"><i class="fa fa-apple icon-facebook" aria-hidden="true"
+											data-toggle="tooltip" data-placement="top" data-original-title="" title=""></i><span></span>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<table width="100%">
+									<tbody>
+										<tr>
+											<td>
+												<div style="background: #e8503e;width:70px;height:70px;"><a
+														href="#">
+														<div style="color: white; text-align: center; font-size: 16px; padding-top:21px;">
+															UD&amp;UHD</div>
+													</a></div>
+											</td>
+											<td><br></td>
+											<td>
+												<a href="#">
+													<p style="color: white; font-size: 15px;">Urban Development And Urban Housing Department
+													</p>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div style="background: #de8b05;width:70px;height:70px;"><a href="#">
+														<div style="color: white; text-align: center; font-size: 18px; padding-top:25px;">GSWAN
+														</div>
+													</a></div>
+											</td>
+											<td><br></td>
+											<td>
+												<a href="#">
+													<p style="color: white; font-size: 15px;">Gujarat State Wide Area Network</p>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div style="background: #f55197;width:70px;height:70px;"><a href="#">
+														<div style="color: white; text-align: center; font-size: 18px; padding-top:25px;">GUDM
+														</div>
+													</a></div>
+											</td>
+											<td><br></td>
+											<td>
+												<a href="#">
+													<p style="color: white; font-size: 15px;">Gujarat Urban Development Mission</p>
+												</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+			<!-- /footer -->
+		</div>
+		<div style="background-color: #eeeded; color: #999;">
+			<center><b>2017 © ENAGAR </b> All rights Reserved.</center>
+		</div>
+		<!-- /page container -->
+		<!-- Login POPUP -->
+		<div id="loginPopup" class="modal fade">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header bg-primary">
+						<button type="button" class="close" id="X" data-dismiss="modal">×</button>
+						<h5 class="modal-title">Login</h5>
+					</div>
+					<div class="modal-body">
+						<form name="loginForm" id="loginForm" action="#" method="POST"
+							autocomplete="off" novalidate="novalidate" class="fv-form fv-form-bootstrap"><button type="submit"
+								class="fv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+							<div class="row">
+								<div class="col-md-12">
+									<font color="red" id="error_message">
+									</font>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group form-group-material has-feedback">
+										<label class="control-label animate">UserName</label>
+										<input type="text" class="form-control" id="loginUsername" name="username" maxlength="80"
+											placeholder="UserName" value="" required="required" data-fv-field="username">
+										<div class="form-control-feedback">
+											<i class="fa fa-user text-muted"></i>
+										</div>
+										<small class="help-block" data-fv-validator="notEmpty" data-fv-for="username"
+											data-fv-result="NOT_VALIDATED" style="display: none;">The User name is required</small><small
+											class="help-block" data-fv-validator="stringLength" data-fv-for="username"
+											data-fv-result="NOT_VALIDATED" style="display: none;">Please enter a value with valid
+											length</small>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group form-group-material has-feedback">
+										<label class="control-label animate">Password</label>
+										<input type="password" class="form-login form-control" id="loginPassword" name="password"
+											maxlength="18" placeholder="Password" required="required" data-toggle="tooltip"
+											data-trigger="manual" data-title="Caps lock is on" data-fv-field="password" data-original-title=""
+											title="">
+										<div class="form-control-feedback">
+											<i class="icon-user-lock text-muted"></i>
+										</div>
+										<small class="help-block" data-fv-validator="notEmpty" data-fv-for="password"
+											data-fv-result="NOT_VALIDATED" style="display: none;">The Password is required</small><small
+											class="help-block" data-fv-validator="stringLength" data-fv-for="password"
+											data-fv-result="NOT_VALIDATED" style="display: none;">Please enter a value with valid
+											length</small>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group form-group-material">
+										<label for="captchafield" class="control-label animate">Captcha *</label>
+										<input type="text" name="captchafield" id="loginCaptchafield" size="15" class="form-control"
+											placeholder="Captcha" data-fv-field="captchafield">
+										<small class="help-block" data-fv-validator="notEmpty" data-fv-for="captchafield"
+											data-fv-result="NOT_VALIDATED" style="display: none;">The Captcha is required</small><small
+											class="help-block" data-fv-validator="isValidCaptcha" data-fv-for="captchafield"
+											data-fv-result="NOT_VALIDATED" style="display: none;">Please Enter Valid Captcha Code</small>
+									</div>
+								</div>
+								<div class="col-md-6" style="padding-top:20px">
+									<div class="form-group form-group-material">
+										<label class="control-label animate"></label>
+										<div class="input-group">
+											<img src="https://enagar.gujarat.gov.in/DIGIGOV/Captcha?1645167241039" id="loginCaptcha"
+												class="img-responsive media-preview" style="height: 36px;">
+											<div class="input-group-btn">
+												<button type="button" id="refresh" class="btn btn-default btn-icon"><span
+														class="fa fa-refresh"></span></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group form-group-material">
+									<div class="col-md-12">
+										<button type="submit" id="btnSubmit" name="btnSubmit"
+											class="loginSubmitBtn btn bg-pink-400 btn-block legitRipple ">Login <i
+												class="icon-arrow-right14 position-right"></i></button>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group  form-group-material" style="display:none">
+										<label class="control-label col-sm-3 is-visible" for="lang">Language :</label>
+										<input type="radio" name="locale" value="en_US" checked="checked">
+										<span style="font-size: 10pt;"> <b>English</b>
+											<input type="radio" name="locale" value="gu">
+											<b>Gujarati</b>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group form-group-material ">
+									<div class="row">
+										<div class="col-md-6 col-md-offset-6 text-right">
+											<a
+												href="#">Forgot
+												password?</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="content-divider text-muted form-group"><span>Don't have an account?</span></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-md-offset-4">
+								<a href="#"
+									class="btn bg-primary-300 btn-block content-group legitRipple">Sign up</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- Login POPUP -->
+		<!-- Login POPUP -->
+		<!-- Property Tax POUP -->
+		<div id="cityPopup" class="modal fade">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header bg-primary">
+						<button type="button" class="close" data-dismiss="modal">×</button>
+						<h5 class="modal-title">Selct City</h5>
+					</div>
+					<div class="modal-body">
+						<form autocomplete="off"
+							action="#">
+							<div class="form-group form-group-material">
+								<label class="control-label is-visible">Selct City</label>
+								<select class="form-control" id="select-city">
+									<option value="Ahmedabad">Ahmedabad</option>
+									<option value="Surat">Surat</option>
+									<option value="Rajkot">Rajkot</option>
+									<option value="Vadodara">Vadodara</option>
+								</select>
+							</div>
+							<div class="form-group text-center">
+								<button type="button" class="btn btn-default" id="submit-city">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Property Tax POUP -->
+		<!-- Transaction Conditions POP UP-->
+		<div id="transactionCharges" class="modal fade">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header bg-primary">
+						<button type="button" class="close" data-dismiss="modal">×</button>
+						<h1><b>Transaction Charges</b></h1>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<table width="100%" border="1">
+								<tbody>
+									<tr style="font-size: 14px;">
+										<th><b>S.No</b></th>
+										<th width="35%"><b>Payment Channel</b></th>
+										<th width="65%"><b>Transaction Particulars</b></th>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center"><b>A</b></td>
+										<td><b>For Local Debit Card </b></td>
+										<td><b>(Including all applicable Taxes)</b></td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center">1</td>
+										<td>Transactions upto Rs.2000/-</td>
+										<td>0%:(With minimum Rs.1/- &amp; maximum Rs No Limit)</td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center">2</td>
+										<td>For above Rs.2000/-</td>
+										<td>0%:(With minimum Rs.1/- &amp; maximum Rs No Limit)</td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center">3</td>
+										<td>Onus Debit Cards</td>
+										<td>0%:(With minimum Rs.1/- &amp; maximum Rs No Limit)</td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center"><b>B</b></td>
+										<td><b>For Credit Card</b></td>
+										<td><b>(Including all applicable Taxes)</b></td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center">1</td>
+										<td>0%</td>
+										<td>(With minimum Rs.1/- &amp; maximum Rs No Limit)</td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center">2</td>
+										<td>For Commercial Card</td>
+										<td>0%</td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center">3</td>
+										<td>For International Card</td>
+										<td>0%</td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center"><b>C</b></td>
+										<td><b>For Net Banking</b></td>
+										<td><b>(Including all applicable Taxes)</b></td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center">1</td>
+										<td>NIL</td>
+										<td>0%:(With minimum Rs.1/- &amp; maximum Rs No Limit)</td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center"><b>D</b></td>
+										<td><b>For Mobile Banking</b></td>
+										<td><b>(Including all applicable Taxes)</b></td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center">1</td>
+										<td>NIL</td>
+										<td>0%:(With minimum Rs.1/- &amp; maximum Rs No Limit)</td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center"><b>E</b></td>
+										<td><b>For U.P.I</b></td>
+										<td><b>(Including all applicable Taxes)</b></td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center">1</td>
+										<td>Transactions upto Rs.2000/-</td>
+										<td>0%:(With minimum Rs.1/- &amp; maximum Rs No Limit)</td>
+									</tr>
+									<tr style="font-size: 12px;">
+										<td align="center">2</td>
+										<td>For above Rs.2000/-</td>
+										<td>0%:(With minimum Rs.1/- &amp; maximum Rs No Limit)</td>
+									</tr>
+								</tbody>
+							</table>
+						</div> <br>
+						<div class="form-group text-center">
+							<button type="button" class="agreed" data-dismiss="modal">I Agree</button>
+							<!-- 				<digigov:checkbox value="0" name="agreed" id="agreed" onclick="setAgreed();"/>I agree -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- Added for Arrow -->
+		<a id="return-to-top"><i class="icon-chevron-up"></i></a>
+		<!-- Added for Arrow -->
+		
+	</div>
+	<form name="saveRequestFORM"
+		action="#s"
+		method="post" style="display: none;"> <span id="saveRequestSpan"></span>
+	</form>
+	<div id="tempcontent" style="display: none;"></div>
+	<div id="ajaxResponse2"> </div>
+</body>
+</html>
